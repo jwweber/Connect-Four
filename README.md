@@ -2,6 +2,8 @@
 
 This is my implementation of the Connect-4 board game using functional programing with scheme. 
 
+Please download and view the video demonstration above.
+
 There are three functions we will work with – startgame, markmove and makemove. Startgame initializes the gameboard, which is in fact the only variable in this entire program: a data structure that holds the state of the board. The rest of the program is purely functional. 
 Markmove takes an argument which is the number of the column the player wishes to drop their colored piece into. 
 Makemove is a function that makes the system choose a move according to a dynamic strategy that I programmed. 
